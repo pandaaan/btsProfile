@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway&display=swap');
+
+html, body {
+    height: 100%;
+
+}
+
+body{
+  padding-top: 90px;
+}
+
+.description{
+  text-align: right;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 7em;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  width: 400px;
+  text-align: justify;
+}
+
+
+.v-img-2{
+  width: 500px;
+}
+
+.more-img{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.line{
+  height: 90%;
+  border-right: 1px solid black;
+  margin-right: 39px;
+}
+
+
+.carousel-control-next-icon {
+  background-image: url(../img/next.svg) !important; 
+}
+
+.carousel-control-prev-icon{
+  background-image: url(../img/back.svg) !important;
+}
+
+
+.video-section{
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.bts{
+  text-transform: uppercase;
+}
+
+.signatur{
+  position: absolute;
+  z-index: 10;
+  top: 489px;
+  left: 262px;
+}
+
+.signatur-jimin{
+  position: absolute;
+  z-index: 10;
+  top: 331px;
+  left: 262px;
+}
+
+
+@media (min-width: 992px) {
+.video-row{
+  position: relative;
+    top: -71px;
+  
+
+}
+
+}
