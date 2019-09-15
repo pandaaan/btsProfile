@@ -71,6 +71,10 @@ p{
   left: 262px;
 }
 
+iframe{
+  width:80%;
+  height:450px;
+}
 
 @media (min-width: 992px) {
 .video-row{
@@ -81,3 +85,112 @@ p{
 }
 
 }
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.signatur{
+  top: 418px;
+  width: 300px;
+}
+
+.signatur-jimin{
+  width: 300px;
+  top: 312px;
+}
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .signatur{
+    width: 200px;
+    top: 343px;
+    left: 240px;
+  }
+
+  .signatur-jimin{
+    width: 200px;
+  top: 286px;
+  left: 182px;
+  }
+
+  h1{
+    font-size: 5em;
+  }
+  p{
+    font-size: 0.9em;
+  }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+h1{
+  font-size: 3em;
+}
+.profile-pic{
+  height: 350px;
+}
+
+.signatur{
+  width: 192px;
+  top: 240px;
+  left: 174px;
+}
+
+.signatur-jimin{
+  width: 166px;
+  top: 213px;
+  left: 172px;
+}
+.signatur-suga{
+  top:190px;
+}
+.signatur-jhope{
+  top: 200px;
+}
+iframe{
+  width:100%;
+  height:300px
+}
+
+}
+
+
+@media (max-width: 575.98px) {
+  h1{
+    font-size: 3em;
+  }
+  
+  .signatur{
+    width: 192px;
+    top: 269px;
+    left: 48px;
+  }
+  
+  .signatur-jimin{
+    width: 166px;
+    top: 213px;
+    left:0px;
+  }
+  .signatur-suga{
+    top:276px;
+  }
+  .signatur-jhope{
+    top: 276px;
+  }
+  .v-img-2{
+    padding-bottom: 10px;
+  }
+  .line{
+    display: none;
+  }
+
+  iframe{
+    width:100%;
+    height:180px
+  }
+
+ }
