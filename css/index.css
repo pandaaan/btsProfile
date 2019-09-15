@@ -23,6 +23,11 @@ p{
   text-align: justify;
 }
 
+.logo img{
+  width: 40px;
+  position: relative;
+  top: -68px;
+}
 .one a{
  margin-top: 50px;
 }
@@ -165,7 +170,10 @@ iframe{
   h1{
     font-size: 3em;
   }
-  
+  .logo img{
+    width: 30px;
+    top: -58px;
+  }
   .signatur{
     width: 192px;
     top: 269px;
@@ -178,7 +186,7 @@ iframe{
     left:0px;
   }
   .signatur-suga{
-    top:276px;
+    top:328px;
   }
   .signatur-jhope{
     top: 276px;
