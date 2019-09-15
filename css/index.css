@@ -23,6 +23,9 @@ p{
   text-align: justify;
 }
 
+.one a{
+ margin-top: 50px;
+}
 
 .v-img-2{
   width: 500px;
@@ -38,7 +41,6 @@ p{
   border-right: 1px solid black;
   margin-right: 39px;
 }
-
 
 .carousel-control-next-icon {
   background-image: url(../img/next.svg) !important; 
